@@ -1,5 +1,5 @@
 const Users = () => {
-  const users = [
+  const students = [
     "Alex",
     "Ben",
     "Hadi",
@@ -12,10 +12,11 @@ const Users = () => {
 
   return (
     <>
-      {users.map((user) => (
-        <li>{user}</li>
+      {students.map((student) => (
+        <li>{student}</li>
       ))}
     </>
   );
 };
+
 export default Users;
