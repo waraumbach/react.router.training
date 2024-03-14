@@ -6,7 +6,7 @@ const NavBar = () => {
       <div
         style={{
           display: "flex",
-          width: "250px",
+          width: "350px",
           justifyContent: "space-between",
         }}
       >

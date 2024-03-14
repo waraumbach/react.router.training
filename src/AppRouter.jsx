@@ -10,7 +10,7 @@ function AppRouter() {
   return (
     <>
       <NavBar />
-      <h1>Hello</h1>
+
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
